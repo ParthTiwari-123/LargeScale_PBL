@@ -18,4 +18,4 @@ for _ in range(100000):
 df = pd.DataFrame(records)
 df.to_csv("../data/base/orders.csv", index=False)
 
-print("✅ Data generated")
+print("Data generated")
